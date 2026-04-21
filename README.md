@@ -81,6 +81,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES=30
 6. **Запустите приложение**
 ```bash
 cd ..
+python init_db.py
 python main.py
 ```
 
@@ -113,6 +114,7 @@ ReDoc: http://127.0.0.1:5000/redoc
 |   ├── models.py                       # ORM-модели
 |   └──schemas.py                       # Pydantic-схемы
 ├── .gitignore                          # файл с правилами игноривания файлов для Git
+├── init_db.py                          # Тестовые данные
 ├── main.py                             # точка входа в приложение
 ├── README.md                           # документация по проекту
 └── requirements.txt                    # список зависимостей проекта
