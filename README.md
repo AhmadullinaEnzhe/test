@@ -50,6 +50,7 @@ venv\Scripts\activate # Windows
 
 3. **Установите зависимости**
 ```bash
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
@@ -66,6 +67,7 @@ CREATE DATABASE auth_system;
 5. **Настройте переменные окружения**
 #### Создайте файл .env на основе примера:
 ```bash
+cd app
 cp .env.example .env
 ```
 #### Отредактируйте .env, указав корректные данные для подключения к вашей локальной БД:
@@ -76,8 +78,9 @@ ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=30
 ```
 
-6. **Запустите прилодение**
+6. **Запустите приложение**
 ```bash
+cd ..
 python main.py
 ```
 
