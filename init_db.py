@@ -34,7 +34,7 @@ def init_db():
     admin_rules = [
         AccessRoleRule(
             role_id=admin_role.id,
-            element_id=users_element.id,
+            element_id=access_rules_element.id,
             read_permission=True,
             read_all_permission=True,
             create_permission=True,
