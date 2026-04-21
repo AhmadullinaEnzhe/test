@@ -50,6 +50,7 @@ venv\Scripts\activate # Windows
 
 3. **Установите зависимости**
 ```bash
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
