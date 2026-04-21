@@ -6,7 +6,7 @@ from app.auth import get_current_user
 from app.database import get_db
 from app.services import user_service
 
-# Роутер для эдпоинтов, связанных с пользователе
+# Роутер для эдпоинтов, связанных с пользователями
 router = APIRouter()
 
 # Эндпоинт для регистрации ногово пользователя
